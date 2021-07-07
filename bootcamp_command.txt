@@ -1,0 +1,44 @@
+bin/rails generate controller Skins # สร้าง MVC 
+------- git ----------
+git status
+git add file_name.ext
+git commit -m "message"
+//git push origin feature/rails//
+git push origin feature/rails_news
+---------------------------------------
+/mnt/c/Users/Admin/bootcamp_may_2021/news
+---------------------------------------
+git fetch 
+#ทำให้มี blacne ทำกับcould
+git checkout feature/main_devise
+#ย้าย blacne ไปที่ main_divise
+------------
+git commit --amend -m "devise_12_5" 
+# เปลี่ยนชื่อ commit ที่ commit ไปแล้ว.
+
+git checkout -b ...feature/news_main_divise
+# -b ไม่เคยเจอ branch นี้จะสร้างใหม่ให้
+# ถ้าเจอ -> error
+
+#ลบโฟลเดอร์ที่clone มา
+rm -rf foldernamehere
+
+#clone git
+git clone ..url
+
+#เช็ค branch
+git branch -r
+
+git remote -v
+#หา path ของ remote , จะเก็บว่า origin จะ fetch หรือ push มาจากที่ไหน
+--------------
+ลบโฟลเดอร์ที่ clone มาจาก git
+rm -rf dir-name
+--------
+สร้าง rails งานใหม่
+rails new action_mailer_bootcamp
+
+... หลังจากเปลี่ยน branch ต้อง db migrat
+
+rails webpacker:install
+
